@@ -1,0 +1,47 @@
+{
+	"extends": ["tslint:recommended", "tslint-react", "tslint-config-airbnb", "tslint-eslint-rules"],
+	"linterOptions": {
+		"exclude": [
+			"config/**/*.js",
+			"node_modules/**/*.ts"
+		]
+	},
+	"rules": {
+		"import-name": false,
+		"semicolon": [true, "always"],
+		"no-console": false,
+		"ter-indent": [true, "tab"],
+		"no-consecutive-blank-lines": true,
+		"object-curly-spacing": [true, "always"],
+		"ter-arrow-spacing": [true, {
+			"before": true,
+			"after": true
+		}],
+		"eofline": false,
+		"no-shadowed-variable": false,
+		"no-this-assignment": false,
+		"ordered-imports": false,
+		"trailing-comma": false,
+		"no-var-requires": false,
+		"object-literal-sort-keys": false,
+		"object-shorthand-properties-first": false,
+		"variable-name": false,
+		"no-unused-expression": false,
+		"jsx-self-close": false,
+		"member-ordering": false,
+		"member-access": false,
+		"no-string-literal": false,
+		"ter-arrow-parens": false,
+		"align": false,
+		"no-trailing-whitespace": false,
+		"max-line-length": false,
+		"jsx-no-multiline-js": false,
+		"no-increment-decrement": false,
+		"jsx-curly-spacing": false,
+		"no-empty-interface": false,
+		"prefer-const": false
+	},
+	"rulesDirectory": [
+		"./src"
+	]
+}

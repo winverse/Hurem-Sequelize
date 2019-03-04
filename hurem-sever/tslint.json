@@ -1,0 +1,51 @@
+{
+  "extends": [
+    "tslint:recommended",
+    "tslint-config-airbnb",
+    "tslint-eslint-rules"
+  ],
+  "linterOptions": {
+    "exclude": [
+      "config/**/*.js",
+      "node_modules/**/*.ts",
+      "coverage/lcov-report/*.js"
+    ]
+  },
+  "rules": {
+    "import-name": false,
+    "semicolon": [true, "always"],
+    "no-console": false,
+    "no-consecutive-blank-lines": true,
+    "object-curly-spacing": [true, "always"],
+    "ter-arrow-spacing": [true, {
+      "before": true,
+      "after": true
+    }],
+    "eofline": false,
+    "no-shadowed-variable": false,
+    "no-this-assignment": false,
+    "ordered-imports": false,
+    "no-var-requires": false,
+    "object-literal-sort-keys": false,
+    "object-shorthand-properties-first": false,
+    "variable-name": false,
+    "no-unused-expression": false,
+    "jsx-self-close": false,
+    "no-string-literal": false,
+    "ter-arrow-parens": false,
+    "align": false,
+    "max-line-length": false,
+    "jsx-no-multiline-js": false,
+    "no-increment-decrement": false,
+    "jsx-curly-spacing": false,
+    "no-empty-interface": false,
+    "prefer-const": false,
+    "no-boolean-literal-compare": true,
+    "only-arrow-functions": false,
+    "member-ordering": false,
+    "no-trailing-whitespace": false,
+  },
+  "rulesDirectory": [
+    "./src"
+  ]
+}
