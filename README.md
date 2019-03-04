@@ -1,4 +1,4 @@
-# Hurem with Seqeulize (using typescript)
+# Hurem with Sequelize (using typescript)
 
 >그동안 익숙했던 NOSQL이 아닌 RDBMS를 이용하여 프로젝트를 만들어 봤습니다.
 NOSQL을 사용하지 않고 RDBMS를 사용하는 이유는
